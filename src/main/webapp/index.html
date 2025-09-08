@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Seating Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Exam Seating Management</h1>
+                <p class="subtitle">University Management System</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h2>Welcome to Exam Seating Management System</h2>
+                    <p class="hero-description">
+                        Streamline your examination process with our comprehensive seating arrangement solution. 
+                        Manage students, create exams, and generate optimal seating arrangements with ease.
+                    </p>
+                </div>
+
+                <div class="login-cards">
+                    <div class="login-card student-card">
+                        <div class="card-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Student Login</h3>
+                        <p>Access your exam schedules and seating arrangements</p>
+                        <div class="card-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> View upcoming exams</li>
+                                <li><i class="fas fa-check"></i> Check seating assignments</li>
+                                <li><i class="fas fa-check"></i> Update profile information</li>
+                            </ul>
+                        </div>
+                        <a href="student-login.html" class="btn btn-primary">
+                            <i class="fas fa-sign-in-alt"></i> Student Login
+                        </a>
+                    </div>
+
+                    <div class="login-card teacher-card">
+                        <div class="card-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Teacher/Admin Login</h3>
+                        <p>Manage students, exams, and seating arrangements</p>
+                        <div class="card-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Manage student records</li>
+                                <li><i class="fas fa-check"></i> Create and schedule exams</li>
+                                <li><i class="fas fa-check"></i> Generate seating plans</li>
+                            </ul>
+                        </div>
+                        <a href="teacher-login.html" class="btn btn-secondary">
+                            <i class="fas fa-sign-in-alt"></i> Teacher Login
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-section">
+                <h2>System Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Student Management</h4>
+                        <p>Comprehensive student database with easy CRUD operations and search functionality.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h4>Exam Scheduling</h4>
+                        <p>Create and manage exam schedules with date, time, and duration settings.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-chair"></i>
+                        </div>
+                        <h4>Smart Seating</h4>
+                        <p>Automated seating arrangement with proper spacing and random distribution.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4>Hall Management</h4>
+                        <p>Manage exam halls with capacity tracking and facility information.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h4>Reports & Analytics</h4>
+                        <p>Generate comprehensive reports and analytics for exam management.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Responsive Design</h4>
+                        <p>Access the system from any device with our mobile-friendly interface.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <h2>System Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="total-students">0</div>
+                        <div class="stat-label">Total Students</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="total-teachers">0</div>
+                        <div class="stat-label">Teachers & Admins</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="total-exams">0</div>
+                        <div class="stat-label">Scheduled Exams</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="total-halls">0</div>
+                        <div class="stat-label">Exam Halls</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Exam Seating Management</h4>
+                    <p>Efficient examination management for educational institutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#help">Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <p>Email: support@university.edu</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Exam Seating Management System. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load system statistics
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSystemStats();
+        });
+
+        function loadSystemStats() {
+            // Simulate loading stats (replace with actual API calls)
+            animateCounter('total-students', 1247);
+            animateCounter('total-teachers', 52);
+            animateCounter('total-exams', 23);
+            animateCounter('total-halls', 8);
+        }
+
+        function animateCounter(elementId, targetValue) {
+            const element = document.getElementById(elementId);
+            const startValue = 0;
+            const duration = 2000; // 2 seconds
+            const increment = targetValue / (duration / 16); // 60 FPS
+
+            let currentValue = startValue;
+            const timer = setInterval(() => {
+                currentValue += increment;
+                if (currentValue >= targetValue) {
+                    currentValue = targetValue;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(currentValue);
+            }, 16);
+        }
+    </script>
+</body>
+</html>
