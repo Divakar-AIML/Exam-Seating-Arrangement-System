@@ -1,4 +1,5 @@
-🎓 Exam Seating Management System
+**🎓 Exam Seating Management System**
+
 A comprehensive full-stack web application for managing exam seating arrangements in educational institutions. Built with Java Servlets, JSP, MySQL, and modern frontend technologies.
 
 📋 Table of Contents
